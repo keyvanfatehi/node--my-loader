@@ -1,0 +1,31 @@
+{
+  "name": "my-loader",
+  "version": "1.0.0",
+  "description": "Require modules matching glob while respecting that exported arrays may contain desired object",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keyvanfatehi/node--my-loader.git"
+  },
+  "keywords": [
+    "require",
+    "script",
+    "loader",
+    "glob",
+    "leaf"
+  ],
+  "author": "Keyvan Fatehi <keyvanfatehi@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keyvanfatehi/node--my-loader/issues"
+  },
+  "homepage": "https://github.com/keyvanfatehi/node--my-loader",
+  "dependencies": {
+    "bluebird": "^2.9.30",
+    "bulk-require": "^0.2.1",
+    "lodash": "^3.9.3"
+  }
+}
