@@ -2,7 +2,7 @@ var Promise = require('bluebird')
 var bulkRequire = require('bulk-require');
 var _ = require('lodash');
 module.exports = function(dirname) {
-  config = null;
+  var config = null;
   function loadArray(obj, identFn, arr) {
     if (!arr) arr = [];
     if (identFn(obj)) arr.push(obj);
