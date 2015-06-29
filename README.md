@@ -41,7 +41,8 @@ loader.configure({
   },
   routes: {
     glob: 'routes/**/*.js',
-    // Note that in my routes I can have route objects and arrays of route objects. `my-loader` will find them by always searching for leaves that have `handler` defined.
+    // Note that in my routes I can have route objects and arrays of route objects yet
+    // they will still be found since we search for leaves that have `handler` defined.
     leaf: function(i) { return i.handler; }
   },
   plugins: {
